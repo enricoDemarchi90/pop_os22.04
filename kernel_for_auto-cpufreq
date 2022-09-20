@@ -1,2 +1,10 @@
 #Set the kernel to use acpi mode instead of intel_pstate
+
 sudo kernelstub -a intel_pstate=disable
+
+
+#Enable bluetooth on boot
+#and set the AutoEnable flag to true: AutoEnable=true
+
+sudo nano /etc/bluetooth/main.conf
+
