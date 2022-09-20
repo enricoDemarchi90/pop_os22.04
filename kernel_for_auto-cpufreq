@@ -1,0 +1,2 @@
+#Set the kernel to use acpi mode instead of intel_pstate
+sudo kernelstub -a intel_pstate=disable
