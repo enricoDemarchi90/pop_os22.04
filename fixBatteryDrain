@@ -1,1 +1,2 @@
 sudo kernelstub -a mem_sleep_default=deep
+sudo reboot
